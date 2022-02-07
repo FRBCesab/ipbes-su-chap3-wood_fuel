@@ -1,0 +1,32 @@
+Package: ipbes.su.chap3.wood.fuel
+Type: Package
+Title: IPBES Sustainable Use Assessment - Figure Chapter 3 - Wood fuel
+Version: 1.0.0
+Authors@R: c(
+    person(given   = "Nicolas",
+           family  = "Casajus",
+           role    = c("aut", "cre"),
+           email   = "nicolas.casajus@fondationbiodiversite.fr",
+           comment = c(ORCID = "0000-0002-5537-5294")))
+Description: Code to reproduce the Figure 'Traditional biomass and Wood fuel' 
+    of the chapter 3 of the IPBES Sustainable Use Assessment. This figure shows 
+    two maps a) the population relying on traditional biomass and b) the local 
+    wood fuel supply/demand balance.
+URL: https://github.com/frbcesab/ipbes-su-chap3-wood_fuel
+BugReports: https://github.com/frbcesab/ipbes-su-chap3-wood_fuel/issues
+License: CC BY SA 4.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    devtools,
+    graticule,
+    grDevices,
+    here,
+    readxl,
+    remotes,
+    sf,
+    sp
+Remotes: 
+    ropensci/rnaturalearthhires
