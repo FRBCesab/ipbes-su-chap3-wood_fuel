@@ -10,6 +10,15 @@ fuel supply/demand balance.
 ![](figures/ipbes-su-chap3-wood_fuel.png)
 
 
+## System Requirements
+
+This project handles spatial objects with the R package
+[`sf`](https://cran.r-project.org/web/packages/sf/index.html). This
+package requires some system dependencies (GDAL, PROJ and GEOS). Please
+visit [this page](https://github.com/r-spatial/sf/#installing) to
+correctly install these tools.
+
+
 ## Usage
 
 First clone this repository, then open the R script `make.R` and run it.
