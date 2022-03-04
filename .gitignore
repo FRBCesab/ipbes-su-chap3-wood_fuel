@@ -23,3 +23,4 @@ inst/doc
 data/WISDOM_Balance_x_IPBES_rep_Penny_Mograbi/
 data/ipbes-regions/
 data/WEO2019-Clean-Cooking-database.xlsx
+figures/*.svg

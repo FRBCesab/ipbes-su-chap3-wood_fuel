@@ -158,8 +158,11 @@ grat <- graticule::graticule(
 
 ## Export Map ----
 
-png(here::here("figures", "ipbes-su-chap3-wood_fuel.png"),
-    width = 12, height = 15, units = "in", res = 600, pointsize  = 18)
+# png(here::here("figures", "ipbes-su-chap3-wood_fuel.png"),
+#     width = 12, height = 15, units = "in", res = 600, pointsize  = 18)
+
+svg(here::here("figures", "ipbes-su-chap3-wood_fuel.svg"),
+    width = 12, height = 15, pointsize  = 18)
 
 par(mar = rep(1, 4), family = "serif")
 par(mfrow = c(2, 1))
